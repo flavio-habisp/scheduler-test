@@ -25,8 +25,11 @@ There are four main sections in the application:
 The application also uses Django's built in user authentication system to allow different permissions for different users so that managers can create and edit schedules while employees can view them.
 
 ### Usage
-Make sure you have [Django](https://www.djangoproject.com/download/) installed.<br>
 In main project directory:<br>
+
+`python -m venv schedule-test_env`<br>   
+`.\schedule-test_env\Scripts\activate`<br>
+`pip install django`<br>
 `python manage.py makemigrations`<br>
 `python manage.py migrate`<br>
 `python manage.py runserver`
