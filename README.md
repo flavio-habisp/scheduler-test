@@ -32,5 +32,5 @@ In main project directory:<br>
 `pip install numpy`<br>
 `pip install python-dateutil`<br>
 `python manage.py makemigrations`<br>
-`python manage.py migrate`<br>
+` python manage.py migrate --run-syncdb`<br>
 `python manage.py runserver`
