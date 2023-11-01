@@ -26,10 +26,11 @@ The application also uses Django's built in user authentication system to allow 
 
 ### Usage
 In main project directory:<br>
-
 `python -m venv schedule-test_env`<br>   
 `.\schedule-test_env\Scripts\activate`<br>
 `pip install django`<br>
+`pip install numpy`<br>
+`pip install python-dateutil`<br>
 `python manage.py makemigrations`<br>
 `python manage.py migrate`<br>
 `python manage.py runserver`
